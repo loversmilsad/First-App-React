@@ -3,7 +3,7 @@ import React from 'react';
 import { OverviewWrapper, Title, Description } from './Styles';
 
 
-export default function Overview ( {icon, title, discription} ) {
+export default function Overview ( {icon, title, description} ) {
   return (
     <OverviewWrapper>
      <div>
@@ -11,7 +11,7 @@ export default function Overview ( {icon, title, discription} ) {
      <FontAwesomeIcon color='#f2545f' size='2xl' icon={icon} />
      </div>
      <Title>{title}</Title>
-     <Description>{discription}</Description>
+     <Description>{description}</Description>
     </OverviewWrapper>
   )
 }
