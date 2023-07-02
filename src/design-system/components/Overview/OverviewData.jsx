@@ -1,8 +1,8 @@
 
 import {
-    faAirFreshener,
-    faAnchor,
-    faUserGroup
+   faAirFreshener,
+   faAnchor,
+   faUserGroup
 } from '@fortawesome/free-solid-svg-icons';
 
 
