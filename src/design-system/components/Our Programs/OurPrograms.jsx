@@ -24,7 +24,9 @@ export default function OurPrograms({
             <FontAwesomeIcon size="xs" icon={faClockFour} /> {time}
           </div>
           <div>
-            <FontAwesomeIcon size="xs" icon={faMapMarker} /> {roomNumber}
+            <FontAwesomeIcon size="xs" icon={faMapMarker} />
+            <span>Room</span>
+             {roomNumber}
           </div>
         </IconWrapper>
 
